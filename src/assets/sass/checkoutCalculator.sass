@@ -1,0 +1,80 @@
+@import '_variables'
+
+.calculatorContainer
+    background: #FFF
+    width: 100%
+    padding: 20px
+    border-radius: 0 10px 10px 0
+    border: 1px #f1f1f1 solid
+    border-left: 0
+    box-shadow: -5px 0 25px 0 rgba(0,0,0,0.02)
+    .Heading
+        display: flex
+        .text
+            width: 100%
+            text-align: left
+        .preview
+            flex-shrink: 0
+            width: 100px
+            height: 100px
+            background: #DDD
+            border-radius: 10px
+    .Dates
+        display: flex
+        background: #DDD
+        border-radius: 10px  
+        margin: 20px auto             
+        .checkin,.checkout
+            width: 50%
+            line-height: 40px
+            text-align: center
+            input
+                text-align: center
+                color: #333
+                font-size: 17px
+                border: 0
+                cursor: pointer
+                background: inherit
+                outline: 0
+        .checkout
+            background: #f1f1f1
+            border-radius: 0 10px 10px 0
+    .infoLine
+        display: flex
+        margin-bottom: 10px
+        background: #f1f1f1
+        padding: 5px
+        border-radius: 10px
+        h5
+            line-height: 30px
+            width: 100%
+            text-align: left
+            padding-left: 10px
+        .options
+            flex-shrink: 0
+            input
+                text-align: center
+                border: 1px #DDD solid
+                line-height: 30px
+                border-radius: 10px
+                outline: 0
+    .title
+        color: #555
+        font-weight: normal
+        margin: 20px auto
+        text-align: left
+    .priceDetail
+        display: flex
+        border-bottom: 1px #DDD solid
+        padding: 10px 0
+        &:last-child
+            border-bottom: 0
+        h5
+            width: 100%
+            color: #555
+            font-weight: normal
+            text-align: left
+        span
+            flex-shrink: 0
+            color: #333
+            font-weight: bold

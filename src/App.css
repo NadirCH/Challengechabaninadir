@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.App {
+    text-align: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.checkoutBody {
+    display: flex;
+    padding: 50px
+}
+
+.checkoutBody .listing {
+    width: 100%;
+}
+
+.checkoutBody .reservation {
+    width: 450px;
+    flex-shrink: 0;
+}

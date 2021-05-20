@@ -1,0 +1,64 @@
+.listingContainer {
+  background: #f1f1f1;
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+  border: 1px #f1f1f1 solid;
+  border-right: 0;
+  padding: 20px;
+}
+.listingContainer h2 {
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.listingContainer .priceDetail {
+  display: flex;
+  border-bottom: 1px #DDD solid;
+  padding: 10px 0;
+}
+.listingContainer .priceDetail h5 {
+  width: 120px;
+  color: #555;
+  font-weight: normal;
+  text-align: left;
+  font-size: 15px;
+}
+.listingContainer .priceDetail span {
+  flex-shrink: 0;
+  color: #333;
+  font-weight: bold;
+}
+.listingContainer .messageContainer {
+  padding: 20px 0;
+}
+.listingContainer .messageContainer h5 {
+  text-align: left;
+}
+.listingContainer .messageContainer textarea {
+  width: 100%;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px #DDD solid;
+  resize: none;
+  outline: 0;
+}
+.listingContainer .messageContainer textarea:focus {
+  border-color: #555;
+  padding: 20px;
+}
+.listingContainer .messageContainer .reserve {
+  background: #282c34;
+  color: #FFF;
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=checkoutListing.css.map */
